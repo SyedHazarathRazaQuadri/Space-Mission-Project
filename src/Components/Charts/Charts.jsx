@@ -5,7 +5,7 @@ import Barchat from './BarChat'
 function Charts() {
   return (
     <>
-      <div className='shadow-lg flex basis-1/2 justify-around items-center border border-indigo-700'>
+      <div className='shadow-lg flex basis-1/2 flex-wrap justify-around items-center border border-indigo-700'>
         <div><Piechart /></div>
         <div><Barchat /></div>
       </div>
