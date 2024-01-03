@@ -17,8 +17,8 @@ function NavBar() {
   return (
     <>
     <div className="mb-3">
-      <TETabs className="justify-center">
-        <Link to='/dashboard'>
+      <TETabs style={{background:'azure'}} className="justify-between" >
+        <Link to='/dashboard' style={{background:'#c6d3de'}}>
             <TETabsItem
             onClick={() => handleBasicClick("tab1")}
             active={basicActive === "tab1"}
@@ -26,12 +26,12 @@ function NavBar() {
             Dashboard
             </TETabsItem>
         </Link>
-        <Link to='/login'>
+        <Link to='/login' style={{background:'#c6d3de'}}>
             <TETabsItem
             onClick={() => handleBasicClick("tab2")}
             active={basicActive === "tab2"}
             >
-            Login Page
+            Log Out
             </TETabsItem>
         </Link>
       </TETabs>
