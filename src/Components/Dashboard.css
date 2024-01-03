@@ -1,0 +1,12 @@
+.ag-header-cell-sortable .ag-header-cell-label{
+    justify-content: center;
+}
+.ag-ltr .ag-cell {
+    border-right-color: #e4dfdf;
+}
+.ag-header-cell-sortable{
+    border-right: 1px solid #e4dfdf;
+}
+.ag-header-cell-resize::after{
+    width: 0%;
+}
